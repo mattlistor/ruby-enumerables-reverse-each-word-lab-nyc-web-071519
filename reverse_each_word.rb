@@ -1,6 +1,5 @@
 def reverse_each_word(string)
   splitArray = string.split(" ")
-  splitArray.each() {
+  splitArray.each() {|word| word.reverse()}
   
-  end
 end
